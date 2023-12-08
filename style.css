@@ -1,0 +1,84 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: url(assets/shani.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+}
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        form {
+            margin-bottom: 20px;
+            text-align: center; /* Align the form content to center */
+        }
+
+        form label {
+            display: block; /* Place labels on their own lines */
+            margin-bottom: 5px;
+        }
+
+        form input[type="text"] {
+            width: 250px; /* Set input width */
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            background-color: #F5FFFA;
+        }
+
+        th {
+            background-color: #B0C4DE;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        a.update {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        a.delete {
+            background-color: #f44336;
+            color: white;
+        }
